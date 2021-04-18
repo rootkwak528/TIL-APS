@@ -1,3 +1,7 @@
+# 출처 : SWEA (https://swexpertacademy.com/)
+# 문제번호 : 1970
+# 난이도 : D2
+
 T = int(input())
 for test_case in range(1, T + 1):
     N = int(input())

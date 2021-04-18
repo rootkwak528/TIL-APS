@@ -1,3 +1,7 @@
+# 출처 : SWEA (https://swexpertacademy.com/)
+# 문제번호 : 1486
+# 난이도 : D4
+
 def f(i, s):
     global ans
 

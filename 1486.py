@@ -1,3 +1,7 @@
+# 출처 : SWEA (https://swexpertacademy.com/)
+# 문제번호 : 1486
+# 난이도 : D4
+
 T = int(input())
 for test_case in range(1, T + 1):
     N, B, H = *map(int, input().split()), list(map(int, input().split()))

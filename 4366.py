@@ -1,3 +1,7 @@
+# 출처 : SWEA (https://swexpertacademy.com/)
+# 문제번호 : 4366
+# 난이도 : D4
+
 T = int(input())
 for test_case in range(1, T + 1):
     b, t = input(), input()

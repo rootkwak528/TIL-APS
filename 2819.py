@@ -1,3 +1,7 @@
+# 출처 : SWEA (https://swexpertacademy.com/)
+# 문제번호 : 2819
+# 난이도 : D4
+
 def recursive(i, j, s):
     if (not 0 <= i < 4) or (not 0 <= j < 4):
         return
