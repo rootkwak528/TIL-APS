@@ -10,6 +10,7 @@ def n_queen(i):
         return 1
     rtn = 0
     for j in range(N):
+        # 아이디어 : 직사각형 그리드에서 대각선은 i+j이나 i-j가 동일한 칸들로 표현될 수 있다!
         if not b[j] and not l[i+j] and not r[i-j]:
             b[j] = l[i+j] = r[i-j] = 1
             rtn += n_queen(i + 1)
